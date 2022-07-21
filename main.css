@@ -4,3 +4,141 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     box-sizing: border-box;
 }
+/*-----CSS for header and nav-------*/
+#header{
+    background-image: url(https://images.pexels.com/photos/372326/pexels-photo-372326.jpeg?auto=compress&cs=tinysrgb&w=600);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+.navbar-nav li a{
+    float: right;
+    color: #fff !important;
+}
+.navbar-brand h3{
+    width: 150px;
+    margin-left: 30px;
+}
+.navbar-toggler{
+    border: none !important;
+    outline: none !important;
+}
+nav .fa-bars{
+    color: #fff !important;
+    font-size: 30px;
+}
+/*-----endOfNavSection-------*/
+/*-----CSS for welcome section-------*/
+.welcome{
+    padding: 50px 100px;
+    margin-top: -140px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.6);
+}
+.welcome h1{
+    color: #333;
+}
+.welcome .home-btn{
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #013f7e;
+}
+.welcome .btn:focus{
+    box-shadow: none;
+}
+/*-----end of welcome section-------*/
+/*-----CSS for about youth church section-------*/
+
+#about{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#about .col-md-6{
+    padding: 20px 11px;
+}
+#about h3{
+    margin: 21px auto;
+}
+/*-----end of about youth church section-------*/
+/*-----services section-------*/
+#services{
+    background-color: #efefef;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#services .col-md-4{
+    padding: 20px;
+}
+#services .col-md-4 h4{
+    padding: 5px;
+}
+#services .col-md-4 img{
+    /*-----width:50px-------*/
+    kerning: 0cm;
+}
+#services .col-md-4 p{
+    padding: 5px;
+    text-align: justify;
+}
+/*-----end of services section-------*/
+
+/*-----end of about youth church section---*/
+/*-----CSS for feature  section-------*/
+#features{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://images.pexels.com/photos/2565227/pexels-photo-2565227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+#features .col-md-6{
+    padding: 20px;
+}
+.featurebox{
+    height: 120px;
+}
+.featureLeft{
+    height: 120px;
+    width: 20%;
+    float: left;
+}
+.featurebox .featureLeft .fa{
+    padding-top: 13px;
+    font-size: 50px;
+}
+.featurebox .featureRight{
+    height: 120px;
+    width: 80%;
+    float: left;
+}
+.featurebox .featureRight h4{
+    padding-top: 10px;
+    padding-left: 15px;
+    text-align: left;
+}
+.featurebox .featureRight p{
+    padding-left: 15px;
+    text-align: left;
+}
+
+/*-----CSS for testimonials  section-------*/
+#testimonials{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#testimonials .col-md-4{
+    padding: 10px 30px;
+}
+#testimonials img{
+    width: 60px;
+    height: 60px;
+    border-radius: 20%;
+}
+.review{
+    font-size: 18px;
+    padding: 10px 10px 10px 30px;
+}
