@@ -165,10 +165,10 @@ nav .fa-bars{
     font-weight: 600;
     color: #013f7e;
 }
-#testimonials .middle{
+/*#testimonials .middle{
     margin-bottom: 20px;
     margin-top: -28px;
-}
+} */
 
 .subscribe{
     padding: 50px 20px;
@@ -198,4 +198,26 @@ nav .fa-bars{
  .subscribe .input-group-append{
     background-color: #333;
     border-radius: 30px;
+ }
+ .subscribe .input-group-text{
+    background: transparent;
+    border: none;
+    color: #fff;
+ }
+ .subscribe .btn:focus{
+    box-shadow: none;
+ }
+
+
+
+ #footer{
+    margin-top: 80px;
+    padding: 100px;
+    background-color: #efefef;
+    color: #013f7e;
+ }
+ .footerLogo{
+    width: 150px;
+    margin-top: 25px;
+    margin-bottom: 15px;
  }
