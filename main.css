@@ -172,6 +172,7 @@ nav .fa-bars{
 
 .subscribe{
     padding: 50px 20px;
+    margin-bottom: -100px;
     background-color: #013f7e;
     position: relative;
     box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
@@ -220,4 +221,35 @@ nav .fa-bars{
     width: 150px;
     margin-top: 25px;
     margin-bottom: 15px;
+ }
+ #footer h1{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+ }
+ #footer p{
+    font-size: 12px;
+    text-align: left;
+ }
+ #footer .city{
+    margin-left: 35px;
+
+ }
+ #footer .row .fa{
+    margin-right: 20px;
+    font-size: 1.2em;
+ }
+ #footer  hr{
+    margin-top: 12px;
+
+ }
+ #footer .fa-code{
+    color: #39e229;
+    font-size: 18px;
+    font-weight: bolder;
+ }
+ .copyRight{
+    margin-bottom: -80px;
+    font-size: 18px;
  }
