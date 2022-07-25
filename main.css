@@ -15,6 +15,12 @@
     float: right;
     color: #fff !important;
 }
+.navbar-nav li a:hover{
+    font-weight: 900;
+    transform: scale(1.1);
+}
+
+
 .navbar-brand h3{
     width: 150px;
     margin-left: 30px;
@@ -28,13 +34,14 @@ nav .fa-bars{
     color: #fff !important;
     font-size: 30px;
 }
+
 /*-----endOfNavSection-------*/
 /*-----CSS for welcome section-------*/
 .welcome{
     padding: 50px 100px;
     margin-top: -140px;
     background-color: #fff;
-    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.6);
+    box-shadow: 10px 10px 20px -1px rgba(32, 32, 32, 0.7);
 }
 .welcome h1{
     color: #333;
@@ -44,7 +51,7 @@ nav .fa-bars{
     padding: 10px 30px;
     border-radius: 30px;
     color: #fff;
-    background-color: #013f7e;
+    background-color: #4c76e2;
 }
 .welcome .btn:focus{
     box-shadow: none;
@@ -133,7 +140,7 @@ nav .fa-bars{
 }
 #testimonials h1{
     margin-bottom: 20px;
-    color: #013f7e ;
+    color: #4c76e2 ;
 }
 #testimonials p{
     margin-bottom: 28px;
@@ -147,7 +154,7 @@ nav .fa-bars{
     height: 60px;
     border-radius: 50%;
     display: flex;
-   border: 6px solid #013f7e;
+   border: 6px solid #acacac;
    justify-content: left;
    transform: translateX(-60px);
 }
@@ -155,26 +162,27 @@ nav .fa-bars{
     font-size: 18px;
     padding: 10px 10px 10px 30px;
     border-radius: 10px;
-    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2)
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
 }
 .review .fa{
     font-size: 20px;
-    color: #013f7e;
+    color:  #013f7e;
 }
 #testimonials span{
     font-size: 18px;
     font-weight: 600;
-    color: #013f7e;
+    color:  #4c76e2;
 }
-/*#testimonials .middle{
+#testimonials .middle:hover{
     margin-bottom: 20px;
-    margin-top: -28px;
-} */
+    transform: scale(1.1);
+    box-shadow: inset -10px -10px 20px -1px rgba(255, 255, 255, 0.7)
+}
 
 .subscribe{
     padding: 50px 20px;
     margin-bottom: -100px;
-    background-color: #013f7e;
+    background-color: #4c76e2;
     position: relative;
     box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
 }
@@ -276,3 +284,113 @@ nav .fa-bars{
   #welcome .slide-Left{
     animation-delay: 3s;
   }
+
+
+
+
+
+
+
+#headerOne{
+    background-image: url(images/bannerOne.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    
+}
+
+
+ 
+.blue-btn{
+    background-color: #4c76e2;
+    color:white;
+    padding: 16px 20px;
+    margin: auto auto 16px auto;
+    border:none;
+    cursor:pointer;
+    min-width:100%;
+    border-radius: 10px;
+    font-size: 16px;
+    box-shadow: 5 10px  #acacac;
+    opacity: 0.8;
+}
+input[type=text], input[type=email], input[type=password] {
+    min-width:100%;
+    padding:15px;
+    margin:5px 0 22px 0;
+    display: list-item;
+    background:#f1f1f1;
+    border-radius: 4px;
+    width: auto;
+
+}
+
+
+input:not(:placeholder-shown):not(:focus):invalid {
+    border: 2px solid red;
+}
+.registerbtn{
+    background-color: #968b8b;
+    color:white;
+    padding: 16px 20px;
+    margin:8px 0;
+    border:none;
+    cursor:pointer;
+    width:100%;
+    border-radius: 4px;
+    opacity: 0.8;
+    
+} 
+.registerbtn:hover{
+    opacity: 1;
+    transform: scale(1.2);
+    background-color: #4c76e2;
+}
+a {
+    color: hsl(0, 100%, 74%);
+    font-family: 'Poppins';
+    text-decoration: none;
+}
+.container-terms{
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: white;
+    color: darkgray;
+    margin: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 5px;
+    box-shadow: 15 25px  lightgray;
+}
+#regText{
+    display: grid;
+    place-items: center;
+}
+.containerA{
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    justify-content: center;
+}
+
+
+
+
+
+.swiper{
+    width: 80%;
+    height: fit-content;
+}
+.swiper-slide img{
+    width: 100%;
+
+}
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: #ffff;
+}
+.swiper .swiper-pagination-bullet-active{
+    background: #ffff;
+}
