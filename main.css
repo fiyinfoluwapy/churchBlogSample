@@ -106,32 +106,7 @@ nav .fa-bars{
 #features .col-md-6{
     padding: 20px;
 }
-.featurebox{
-    height: 120px;
-}
-.featureLeft{
-    height: 120px;
-    width: 20%;
-    float: left;
-}
-.featurebox .featureLeft .fa{
-    padding-top: 13px;
-    font-size: 50px;
-}
-.featurebox .featureRight{
-    height: 120px;
-    width: 80%;
-    float: left;
-}
-.featurebox .featureRight h4{
-    padding-top: 10px;
-    padding-left: 15px;
-    text-align: left;
-}
-.featurebox .featureRight p{
-    padding-left: 15px;
-    text-align: left;
-}
+
 
 /*-----CSS for testimonials  section-------*/
 #testimonials{
@@ -176,7 +151,8 @@ nav .fa-bars{
 #testimonials .middle:hover{
     margin-bottom: 20px;
     transform: scale(1.1);
-    box-shadow: inset -10px -10px 20px -1px rgba(255, 255, 255, 0.7)
+    box-shadow: inset -10px -10px 20px -1px rgba(255, 255, 255, 0.7);
+
 }
 
 .subscribe{
@@ -265,7 +241,7 @@ nav .fa-bars{
 
 
  .slide-Left{
-    animation: 2s slideLeft linear forwards ;
+    animation: 5s slideLeft linear forwards ;
   }
   @keyframes slideLeft {
     0% {
@@ -284,6 +260,8 @@ nav .fa-bars{
   #welcome .slide-Left{
     animation-delay: 3s;
   }
+  .blue-btn .slide-Left{
+    animation-delay: 7s  }
 
 
 
@@ -380,21 +358,3 @@ a {
 
 
 
-.swiper{
-    width: 100%;
-    height: fit-content;
-    border-radius: 20px;
-    margin-top: 15px;
-    
-}
-.swiper-slide img{
-    width: 100%;
-    height: fit-content;
-
-}
-.swiper .swiper-button-prev, .swiper .swiper-button-next{
-    color: #000;
-}
-.swiper .swiper-pagination-bullet-active{
-    background: #000;
-}
