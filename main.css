@@ -392,3 +392,46 @@ a {
       font-size: 2.25rem;
     }
   }
+
+
+
+#blogPost{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+#PostsPagination{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.card{
+    width: 400px;
+    height: 150px;
+    display: grid;
+    grid-template-rows: minmax(100%, 1fr);
+    grid-template-areas: "stack";
+    overflow: hidden;
+}
+.card img{
+    grid-area: stack;
+}
+.figureCaption{
+    grid-area: stack;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card .figureCaption{
+    grid-area: stack;
+    background-color: #efefef;
+    transform: translateY(calc(100% - 4rem));
+    transition: transform 600ms;
+}
+.card:hover .figureCaption{
+    transform: none;
+}
