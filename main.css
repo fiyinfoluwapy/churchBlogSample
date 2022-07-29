@@ -229,6 +229,9 @@ nav .fa-bars{
     margin-top: 12px;
 
  }
+ #footer a{
+    text-decoration: none;
+ }
  #footer .fa-code{
     color: #39e229;
     font-size: 18px;
@@ -435,3 +438,5 @@ a {
 .card:hover .figureCaption{
     transform: none;
 }
+
+ 
