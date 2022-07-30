@@ -10,6 +10,7 @@
     height: 80vh;
     background-size: cover;
     background-position: center;
+    color: #f1f1f1;
 }
 .navbar-nav li a{
     float: right;
@@ -39,12 +40,11 @@ nav .fa-bars{
 /*-----CSS for welcome section-------*/
 .welcome{
     padding: 50px 100px;
-    margin-top: -140px;
-    background-color: #fff;
-    box-shadow: 10px 10px 20px -1px rgba(32, 32, 32, 0.7);
+    margin-top: 0;
+    color: #000;
 }
 .welcome h1{
-    color: #333;
+    color: #000;
 }
 .welcome .home-btn{
     margin-top: 10px;
