@@ -236,8 +236,9 @@ nav .fa-bars{
  }
 
  #footer .row .fa{
-   
+    display: inline;
     font-size: 1.2em;
+    margin-right: 5px;
  }
  #footer  hr{
     margin-top: 12px;
