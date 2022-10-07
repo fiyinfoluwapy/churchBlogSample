@@ -225,7 +225,7 @@ nav .fa-bars{
  #footer{
     margin-top: 80px;
     padding: 100px;
-    background-color: #0c0505;
+    background-color: rgba(8, 1, 1, 0.973);
     color:  #0d6efd;
  }
  .footerLogo{
