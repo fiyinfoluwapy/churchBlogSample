@@ -1,3 +1,3 @@
 # churchBlogSample
 
-https://pawsvlad.github.io/churchBlogSample/
+ https://fiyinfoluwapy.github.io/churchBlogSample/
